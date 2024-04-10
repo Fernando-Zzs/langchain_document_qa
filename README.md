@@ -18,8 +18,21 @@
 - 存在幻觉问题，即把用户的输入作为真实情况
 - pdf中的内容格式不固定，有一些是表格，有一些是带角标的文字，在做Embedding的过程中可能会混淆
 
-![alt text](img/image.png)
+![alt text](img/problem.png)
 
+```
+Q: MyMillion Medical Plan, How many newborns are eligible to enjoy the designated medical plan?
+
+A: Each newborn is eligible to enjoy the designated medical plan coverage for 2 years at no extra cost once, but there is no limit to the number of eligible newborns who can benefit from this coverage.
+```
+![alt text](img/result-1.png)
+
+```
+Q: How much is the compassionate death benefit?
+
+A: Each newborn is eligible to enjoy the designated medical plan coverage for 2 years at no extra cost once, but there is no limit to the number of eligible newborns who can benefit from this coverage.
+```
+![alt text](img/result-2.png)
 ## TODO:
 1. 跑通RAG全流程
 2. 解决当前项目存在问题
